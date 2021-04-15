@@ -1,0 +1,29 @@
+{
+  "name": "minhdu-libs",
+  "version": "1.0.0",
+  "description": "Thư viện dùng cho dự án quản lý nội bộ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/longth97/minhdu-libs.git"
+  },
+  "keywords": [],
+  "author": "Uranus solutions Team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/longth97/minhdu-libs/issues"
+  },
+  "homepage": "https://github.com/longth97/minhdu-libs#readme",
+  "devDependencies": {
+    "prettier": "^2.2.1",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.2.4"
+  }
+}

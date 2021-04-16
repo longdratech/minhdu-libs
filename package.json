@@ -2,10 +2,12 @@
   "name": "minhdu-libs",
   "version": "1.0.0",
   "description": "Thư viện dùng cho dự án quản lý nội bộ",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
+    "publish-lib": "npm run build && npm publish",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json"
   },
